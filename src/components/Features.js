@@ -15,7 +15,7 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import { Link as ScrollLink } from 'react-scroll';
 
 const Features = () => {
-  const contractAddress = "HIDOC";
+  const contractAddress = "GV6oVWimyCvhxxYaF5QYSHdeapRuCR9i84dY71Q8pump";
 
   const handleCopyAddress = () => {
     navigator.clipboard.writeText(contractAddress);
